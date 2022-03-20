@@ -16,7 +16,7 @@ for(let i=0; i<input.length; i++) {
 
 average = Math.round(sum / input.length) // 평균
 
-if(average == '-0') average = -average;
+if(average == '-0') average = 0;
 
 const mid = input[Math.floor(input.length / 2)]
 
