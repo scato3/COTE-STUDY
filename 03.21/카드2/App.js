@@ -76,3 +76,4 @@ const N = +input[0];
  
 const card = getLastCard(N);
 console.log(card);
+
